@@ -1,0 +1,20 @@
+deforestation.jpg source: https://unsplash.com/photos/_MG2TCW6wJo
+elephant.jpg source: https://unsplash.com/photos/f0oe9P9Yixs
+deer.jpg source: https://unsplash.com/photos/Z0tTnl_eOIo
+
+panda.jpg source: https://unsplash.com/photos/e3mu-MTj7Xk
+orangutan.jpg source: https://unsplash.com/photos/nKGio_6E_4k
+tiger.jpg source: https://unsplash.com/photos/klpWbwujpUg
+elephant.jpg source: https://unsplash.com/photos/1aJiV6n-z0c
+gorilla.jpg source: https://unsplash.com/photos/Ns0rFLTjLU4
+leopard.jpg source: https://unsplash.com/photos/71OwL3CZhOE
+
+facebook.png source: https://www.flaticon.com/free-icon/facebook_5968764?term=facebook&page=1&position=8&page=1&position=8&related_id=5968764&origin=search
+instagram.png source:https://www.flaticon.com/free-icon/instagram_1384015?term=instagram&page=1&position=6&page=1&position=6&related_id=1384015&origin=search
+linkedin.png source: https://www.flaticon.com/free-icon/linkedin_1384014?term=linkedin&page=1&position=4&page=1&position=4&related_id=1384014&origin=search
+github.png source: https://www.flaticon.com/free-icon/github_1051326?term=github&page=1&position=6&page=1&position=6&related_id=1051326&origin=search
+
+NOTE: most icons and images are manually edited and customised with Adobe Photoshop to achieve the unified visual identity of the brand.
+
+information:-
+Endangered species: https://www.britannica.com/list/10-of-the-most-famous-endangered-species

@@ -1,0 +1,706 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: default;
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: #eeeeee;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.categories {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 230px;
+}
+
+.link {
+    color: #353535;
+    font-size: 13pt;
+    padding: 0% 4%;
+    cursor: pointer;
+}
+
+.link::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background-color: #22c687;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.link:hover::after {
+    width: 100%; 
+}
+
+.name {
+    color: #22c687;
+    font-size: 26pt;
+    font-weight: 700;
+    cursor: default;
+    margin: 3px 0px;
+    position: relative;
+    left: 125px;
+}
+
+.here {
+    color: #22c687;
+    font-weight: 300;
+    cursor: default;
+}
+
+#cover{
+    width: 100%;
+    height: 500px;
+    /* background-image: linear-gradient(#22c687 , #1aaf91);\ */
+    background-image: url(../images/deforestation.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: white;
+    font-weight: 700;
+    font-size: 17pt;
+    max-width: 600px;
+    text-shadow: 3px 3px 10px black;
+    text-align: right;
+    position: relative;
+    top: 30px;
+}
+
+.vertical-line{
+    width: 15px;
+    height: 220px;
+    background-color: white;
+    margin: 0px 15px;
+    position: relative;
+    top: 30px;
+}
+
+#dangers{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    position: relative;
+}
+
+.animal-textbox{
+    width: 90%;
+    height: 380px;
+    background-color: #22c687;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    z-index: 1;
+}
+
+.title1{
+    font-size: 32pt;
+    font-weight: 600;
+    color: white;
+    margin-left: 450px;
+    position: relative;
+    top: 50px;
+}
+
+.text1{
+    font-size: 12pt;
+    font-weight: 500;
+    color: white;
+    position: relative;
+    top: 75px;
+    left: 450px;
+    max-width: 750px;
+}
+
+.text2 {
+    font-size: 12pt;
+    font-weight: 500;
+    color: white;
+    position: relative;
+    top: 95px;
+    left: 450px;
+    max-width: 750px;
+}
+
+.animal-imagebox{
+    background: url(../images/deer.jpg);
+    width: 430px;
+    height: 430px;
+    background-size: cover;
+    background-position-x: -90px;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 280px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    transition: 0.5s;
+}
+
+.animal-imagebox:hover{
+    width: 435px;
+    height: 435px;
+}
+
+p a{
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#donate{
+    width: 100%;
+    height: 500px;
+    background-color: #22c687;
+    background-image: url(../images/elephant-bg.jpg);
+    background-size: cover;
+    background-position-y: 1200px;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.donation-box{
+    width: 600px;
+    height: 400px;
+    background-color: #eeeeee;
+    border-radius: 12px;
+    position: absolute;
+    left: 50px;
+}
+
+.title2 {
+    font-size: 32pt;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+.text3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #707070;
+    position: relative;
+    top: 60px;
+    left: 75px;
+    text-align: center;
+    max-width: 450px;
+}
+
+.donate{
+    width: auto;
+    height: auto;
+    font-size: 24px;
+    background-color: #22c687;
+    padding: 15px 50px;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top: 110px;
+    left: 205px;
+    cursor: pointer;
+    transition: 0.5s;
+    transition-timing-function: ease;
+}
+
+.donate:hover{
+    padding: 17px 52px;
+}
+
+#about {
+    width: 100%;
+    height: 430px;
+    background-color: white;
+}
+
+.about{
+    color: #22c687;
+    font-weight: 700;
+    font-size: 36pt;
+    text-align: center;
+    position: relative;
+    top: 45px;
+}
+
+.text4 {
+    font-size: 13pt;
+    font-weight: 600;
+    color: #757575;
+    position: relative;
+    top: 80px;
+    margin: auto;
+    text-align: center;
+    max-width: 1080px;
+}
+
+.text5 {
+    font-size: 13pt;
+    font-weight: 600;
+    color: #707070;
+    position: relative;
+    top: 100px;
+    margin: auto;
+    text-align: center;
+    max-width: 1080px;
+}
+
+footer{
+    width: 100%;
+    height: 315px;
+    background-color: #22c687;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-us{
+    color: white;
+    font-weight: 700;
+    font-size: 36pt;
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 45px;
+}
+
+.cgroup{
+    font-size: 18px;
+    font-weight: 700;
+    color: #00000023;
+    margin: 0px 35px;
+}
+.info{
+    font-weight: 600;
+    color: white;
+    padding-left: 8px;
+    cursor: pointer;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+}
+
+.social-icon{
+    width: 32px;
+    height: 32px;
+    margin: 0px 15px;
+    cursor: pointer;
+}
+
+.quick-categories {
+    width: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0px 230px;
+    position: relative;
+    top: 110px;
+}
+
+.quick-link {
+    color: #353535;
+    font-size: 10pt;
+    font-weight: 500;
+    color: white;
+    padding: 0px 12px;
+    cursor: pointer;
+}
+
+h6 {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    color: #dddddd;
+    font-size: 9px;
+    position: relative;
+    top: 115px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+@media (max-width: 480px) 
+/* Mobile devices */
+{
+
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .link {
+        padding: 0% 3%;
+        font-size: 13pt;
+    }
+
+    .name {
+        position: relative;
+        left: 15px;
+        font-size: 20pt;
+    }
+
+    .categories {
+        margin: 0px 0px;
+        position: relative;
+        right: 40px; 
+    }
+
+    h2 {
+        font-weight: 700;
+        font-size: 15pt;
+        max-width: 600px;
+        position: relative;
+    }
+    
+    .vertical-line {
+        width: 40px;
+        height: 300px;
+        background-color: white;
+        margin: 0px 15px;
+        position: relative;
+        top: 30px;
+    }
+
+    .text1,
+    .text2,
+    .text3,
+    .text4,
+    .text5 {
+        font-size: 9pt;
+    }
+
+    .animal-textbox {
+        width: 100%;
+        height: 500px;
+        border-radius: 0px;
+    }
+
+    .animal-imagebox {
+        width: 175px;
+        height: 175px;
+        background-position-x: -50px;
+        position: absolute;
+        left: 100px;
+        top: 110px;
+        
+    }
+
+    .animal-imagebox:hover {
+        width: 175px;
+        height: 175px;
+    }
+
+    .title1,
+    .title2,
+    .contact-us,
+    .about {
+        font-size: 19pt;
+    }
+
+    .about {
+        font-size: 28pt;
+    }
+
+    .text1 {
+        position: relative;
+        left: 15px;
+        top: 120px;
+        max-width: 350px;
+    }
+
+    .text2 {
+        max-width: 350px;
+        position: relative;
+        left: 15px;
+        top: 130px;
+    }
+
+    .title1 {
+        margin-left: 190px;
+        margin-top: 15px;
+        max-width: 100px;
+    }
+
+    .cgroup {
+        font-size: 12pt;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        height: 335px;
+    }
+
+    .donation-box {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        left: 20px;
+    }
+
+    .text3 {
+        position: relative;
+        top: 60px;
+        left: 15px;
+        max-width: 320px;
+        font-size: 14px;
+    }
+
+    .donate {
+        position: relative;
+        padding: 10px 40px;
+        font-size: 14pt;
+        top: 100px;
+        left: 100px;
+    }
+        h6 {
+            display: flex;
+            justify-content: center;
+            font-weight: 400;
+            color: #dddddd;
+            font-size: 8px;
+            position: relative;
+            top: 115px;
+        }
+}
+
+@media (min-width: 481px) and (max-width: 769px)
+/* Small tablets */
+{
+    .link {
+        padding: 0% 3%;
+        font-size: 18pt;
+    }
+
+    .name {
+        position: relative;
+        left: 40px;
+        font-size: 28pt;
+    }
+
+    .categories {
+        margin: 0px 0px;
+        position: relative;
+        right: 150px;
+    }
+
+    .text1,
+    .text2,
+    .text3,
+    .text4,
+    .text5 {
+        font-size: 11pt;
+    }
+
+    .animal-textbox {
+        width: 100%;
+        height: 500px;
+        border-radius: 0px;
+    }
+
+    .animal-imagebox {
+        width: 290px;
+        height: 290px;
+        background-position-x: -75px;
+        position: absolute;
+        left: 180px;
+        top: 180px;
+    }
+
+    .animal-imagebox:hover {
+        width: 290px;
+        height: 290px;
+    }
+
+    .title1,
+    .title2,
+    .contact-us,
+    .about {
+        font-size: 26pt;
+    }
+    .about{
+        font-size: 36pt;
+    }
+
+    .text1 {
+        position: relative;
+        left: 340px;
+        max-width: 350px;
+    }
+
+    .text2 {
+        max-width: 600px;
+        position: relative;
+        left: 35px;
+        top: 150px;
+    }
+
+    .title1 {
+        margin-left: 340px;
+    }
+
+    .cgroup {
+        font-size: 12pt;
+    }
+
+    .donation-box {
+        width: 520px;
+        height: 350px;
+    }
+        
+    .text3 {
+        position: relative;
+        top: 60px;
+        left: 45px;
+        max-width: 430px;
+    }
+        
+    .donate {
+        position: relative;
+        top: 93px;
+        left: 175px;
+    }
+}
+
+@media (min-width: 770px) and (max-width: 1310px)
+/* Large tablets and pc monitors */
+{
+    .link {
+        padding: 0% 3%;
+        font-size: 18pt;
+    }
+
+    .name {
+        position: relative;
+        left: 40px;
+        font-size: 28pt;
+    }
+
+    .categories {
+        margin: 0px 0px;
+        position: relative;
+        right: 150px;
+    }
+
+    .text1,
+    .text2,
+    .text3,
+    .text4,
+    .text5 {
+        font-size: 11pt;
+    }
+
+    .animal-textbox {
+        width: 97%;
+        height: 480px;
+        border-radius: 12px;
+    }
+
+    .animal-imagebox {
+        width: 290px;
+        height: 290px;
+        background-position-x: -75px;
+        position: absolute;
+        left: 180px;
+        top: 180px;
+    }
+
+    .animal-imagebox:hover {
+        width: 290px;
+        height: 290px;
+    }
+
+    .title1,
+    .title2,
+    .contact-us,
+    .about {
+        font-size: 26pt;
+    }
+
+    .about {
+        font-size: 36pt;
+    }
+
+    .text1 {
+        position: relative;
+        left: 340px;
+        max-width: 350px;
+    }
+
+    .text2 {
+        max-width: 600px;
+        position: relative;
+        left: 35px;
+        top: 200px;
+    }
+
+    .title1 {
+        margin-left: 340px;
+    }
+
+    .cgroup {
+        font-size: 12pt;
+    }
+
+    .donation-box {
+        width: 520px;
+        height: 350px;
+    }
+
+    .text3 {
+        position: relative;
+        top: 60px;
+        left: 45px;
+        max-width: 430px;
+    }
+
+    .donate {
+        position: relative;
+        top: 93px;
+        left: 175px;
+    }
+}
